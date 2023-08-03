@@ -1,0 +1,33 @@
+.search{
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.search input {
+    max-width: 12rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+}
+    
+.search input::placeholder {
+    color: #888;
+}
+    
+.search input:focus {
+    outline: none;
+    background-color: #444;
+}
+
+.search button{
+    padding: 0.5rem;
+    background-color: #333;
+    border: none;
+}
+
+.search button:hover{
+    background-color: #444;
+}
