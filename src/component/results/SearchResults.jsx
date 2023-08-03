@@ -6,11 +6,13 @@ function SearchResults(props){
     return(
         <div className={styles.result} >
             <h3>Results</h3>
-            {props.users.map(user =>
+            {props.users.length === 0 ? 
+               (<p>Search for users</p>)
+               : (props.users.map(user =>
                <div className={styles.container} key={user.id} >
-                <img src={user.avatar} alt="avatar" />
-                <a href={user.url}>{user.name}</a>
-               </div>
+                <img src={user.avatar_url} alt="avatar" />
+                <a href={user.html_url} target="_blank" rel="noreferrer">{user.login}</a>
+               </div>)
                 )}
         </div>
     );

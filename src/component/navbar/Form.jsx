@@ -21,7 +21,7 @@ function Form(props){
             return response.json();
         })
         .then((data) => {
-            props.onSearch(data);
+            props.onSearch(data.items);
         })
         .catch((error) => {
             console.log(error);
