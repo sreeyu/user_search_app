@@ -12,3 +12,8 @@ body{
   margin: 0;
   background-color: #212529;
 }
+
+.para{
+  text-align: center;
+  color: white
+}

@@ -5,7 +5,7 @@ function SearchResults(props){
 
     return(
         <div className={styles.result} >
-            <h3>Results</h3>
+            
             {props.users.length === 0 ? 
                (<p>Search for users</p>)
                : (props.users.map(user =>

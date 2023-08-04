@@ -31,3 +31,14 @@
 .search button:hover{
     background-color: #444;
 }
+
+@media (max-width: 786px){
+    .search input{
+        padding: 0.2rem;
+        width: 7rem;
+    }
+
+    .search button{
+        padding: 0.2rem;
+    }
+}

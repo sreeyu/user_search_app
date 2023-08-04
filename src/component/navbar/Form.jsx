@@ -21,7 +21,7 @@ function Form(props){
             return response.json();
         })
         .then((data) => {
-            props.onSearch(data.items);
+            props.onSearch(data.items, username);
         })
         .catch((error) => {
             console.log(error);

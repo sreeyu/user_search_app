@@ -1,4 +1,5 @@
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,4 +11,14 @@
 .navbar h3 {
   margin: 0;
   font-size: 1.5rem;
-}  
+}
+
+@media (max-width: 786px){
+  .navbar{
+    padding: 1rem 0.5rem;
+  }
+
+  .navbar h3{
+    font-size: 1rem;
+  }
+}

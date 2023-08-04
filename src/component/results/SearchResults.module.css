@@ -30,3 +30,16 @@
 .container a:visited{
     color: #2dba4e;
 }
+
+@media (max-width: 786px){
+    .result{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .container{
+        width: 20rem;
+    }
+}
